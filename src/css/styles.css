@@ -1,3 +1,17 @@
-body {
-  color: white;
-  background: purple; }
+header, .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: red;
+  color: #1a1616; }
+  header button, .contact button {
+    background: purple; }
+    header button:hover, .contact button:hover {
+      background: yellow; }
+
+.contact {
+  background: lightcoral;
+  width: 50%;
+  margin: auto; }

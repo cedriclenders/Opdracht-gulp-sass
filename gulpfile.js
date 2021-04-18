@@ -9,7 +9,7 @@ function style() {
     gulp
       .src("./src/scss/**/*.scss")
       //2. file door sass compiler laten gaan
-      .pipe(sass())
+      .pipe(sass().on("error", sass.logError))
       //3. CSS file opslaan op locatie
       .pipe(gulp.dest("./src//css"))
       //4. Stream changes to all browsers

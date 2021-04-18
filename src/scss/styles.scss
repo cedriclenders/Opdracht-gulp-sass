@@ -1,4 +1,9 @@
-body {
-  color: white;
-  background: purple;
+@import "./variables";
+@import "./header";
+
+.contact {
+  @extend header;
+  background: lightcoral;
+  width: 100%-50%;
+  margin: auto;
 }
