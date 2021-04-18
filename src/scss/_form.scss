@@ -1,0 +1,14 @@
+.form-wrapper {
+  @include flexCenter(column, white);
+  height: auto;
+  margin: 5%;
+  label {
+    font-weight: 500;
+  }
+  .buttonForm {
+    background: $primaryBtn;
+  }
+  input {
+    border-radius: 5px;
+  }
+}

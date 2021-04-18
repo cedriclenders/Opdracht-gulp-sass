@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 @import "./variables";
 @import "./header";
+@import "./form";
 
 .contact {
   @extend header;
   background: lightcoral;
   width: 100%-50%;
   margin: auto;
+}
+* {
+  font-family: $body-font;
 }

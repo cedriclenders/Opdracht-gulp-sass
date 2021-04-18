@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 header, .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
   flex-direction: column;
   background: red;
   color: #1a1616; }
@@ -11,7 +12,26 @@ header, .contact {
     header button:hover, .contact button:hover {
       background: yellow; }
 
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+  background: white;
+  height: auto;
+  margin: 5%; }
+  .form-wrapper label {
+    font-weight: 500; }
+  .form-wrapper .buttonForm {
+    background: purple; }
+  .form-wrapper input {
+    border-radius: 5px; }
+
 .contact {
   background: lightcoral;
   width: 50%;
   margin: auto; }
+
+* {
+  font-family: "Montserrat", sans-serif; }
